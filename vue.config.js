@@ -1,3 +1,4 @@
 module.exports = {
-    publicPath: '/JamesJJT-GHP/'
+    publicPath: '/JamesJJT-GHP/',
+    outputDir: 'docs'
 }
