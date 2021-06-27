@@ -1,11 +1,14 @@
 <template>
-  <div class="flex h-screen" id="app">
-    <div class="m-auto">
-      <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
-      </div>
-      <router-view class="flex"/>
-    </div>
+  <div class="h-screen" id="app">
+    <Nav></Nav>
+    <router-view/>
   </div>
 </template>
+
+<script>
+  import Nav from "./components/Nav";
+  export default {
+    components: {Nav}
+  }
+
+</script>
