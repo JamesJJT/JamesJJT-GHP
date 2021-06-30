@@ -7,7 +7,7 @@
             <button class="border rounded p-2 m-2 hover:bg-blue-300 hover:text-white" @click.prevent="clearForm">Clear Form</button>
         </div>
         <div v-if="url">
-            <iframe v-bind:src=url height="600px" width="600px"></iframe>
+            <iframe v-bind:src=forceHTTPS height="600px" width="600px"></iframe>
         </div>
 
     </div>
@@ -47,6 +47,11 @@
                 this.username = '';
                 this.input = '';
                 this.url = '';
+            }
+        },
+        computed: {
+            forceHTTPS: function () {
+                return this.url.replace(/^http:\/\//i, 'https://')
             }
         }
     }
