@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d20916b"],{a820:function(e,n,i){"use strict";i.r(n);var t=function(){var e=this,n=e.$createElement,i=e._self._c||n;return i("div",[e._v(" Flight Briefing page. ")])},a=[],r={name:"FlightBriefing"},c=r,l=i("2877"),u=Object(l["a"])(c,t,a,!1,null,"1db42969",null);n["default"]=u.exports}}]);
-//# sourceMappingURL=chunk-2d20916b.0fd36e6b.js.map
